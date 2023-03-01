@@ -34,9 +34,19 @@ html{
     padding: 10px 20px;
 }
 
-#inicio .contenido header .contenido-header h1 {
+/* #inicio .contenido header .contenido-header h1 {
     text-align: center;
     color: #ff5080;
+} */
+
+#inicio .contenido header .contenido-header img{
+    height: 50px;
+    transition:  .5s;
+    cursor: pointer;
+}
+
+#inicio .contenido header .contenido-header img:hover{
+    height: 55px;
 }
 
 #inicio .contenido header .contenido-header nav ul{
