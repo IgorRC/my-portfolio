@@ -12,7 +12,7 @@ html{
 }
 
 #inicio{
-    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)), url("imgenes/cinematico.JPG");
+    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)), url("/imgenes/cinematico.JPG");
     background-size: cover;
     background-position: center center;
 }
