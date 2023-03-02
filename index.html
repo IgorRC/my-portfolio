@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/inicio.css">
     <link rel="stylesheet" href="/css/estilo-sobre-mi.css">
+    <link rel="stylesheet" href="/css/estilo-responsive.css">
     <link rel="icon" href="/imgenes/logo/logotipoun_cuarto.png">
     <title>Igor RC</title>
 </head>
@@ -29,7 +30,7 @@
                     </nav>
                     <!-- ICONOS DEL MENU RESPONSIVE -->
 
-                    <div id="icono-nav">
+                    <div id="icono-nav" onclick="responsiveMenu()">
                         <i class="fa-solid fa-bars"></i>
                     </div>
 
@@ -64,7 +65,18 @@
             <p>¡Hola! Como ingeniero de software, soy un profesional altamente capacitado y especializado en el diseño, desarrollo y mantenimiento de aplicaciones y sistemas de software. Tengo una amplia formación en programación, bases de datos, seguridad de la información, y otras áreas clave de la ingeniería de software.</p>
             <a href="">Descargar DV</a>
         </div>
-
     </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
 </body>
 </html>
