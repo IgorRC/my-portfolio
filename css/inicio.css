@@ -128,7 +128,7 @@ html{
     transition: .5s;
 }
 
-#inicio .contenido .presentacion a :hover{
+#inicio .contenido .presentacion a:hover{
     background-color: #ff5080;
 }
 
